@@ -168,19 +168,13 @@ system for a real client. Gained exposure to Ruby & Rails along with more
 experience with Software Development techniques such as Test/Behavior Driven
 Devlopment.
 
-## Domain-specific Word Sense Disambiguation
+## Semantic Textual Similarity
 
 ### Darwin Research Project
 
 #### 2011 - Current
 
-The philosophy of the Darwin project is to give students at fourth year and
-Masters level some insight into the research process by applying scientific
-research methodology to a small group research project. This project will
-implement and evaluate a Word Sense Disambiguation system that makes use of
-information about document topics. The WSD system will be based on an existing
-approach which will be adapted using one of several techniques that have been
-proposed.
+The philosophy of the Darwin project is to give students at fourth year and Masters level some insight into the research process by applying scientific research methodology to a small group research project. This project aims to produce a system which can quantifiably inform us how similar two short sentences are, resulting in a similarity score. This will be done by using existing approaches (such as N-gram overlap) which will be extended using one of several techniques that have been proposed.
 
 ## Mining & Integrating a Large Amount of Information from the Web
 
