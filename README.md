@@ -2,7 +2,7 @@
 
 ## Web & App Developer
 
-### [Download PDF](cv_sam_oakley.pdf)
+### [sam-oakley.co.uk](www.sam-oakley.co.uk)
 
 ### [sam@blork.co.uk](mailto:sam@blork.co.uk)
 
