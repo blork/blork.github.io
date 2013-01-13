@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN"
+"http://www.w3.org/TR/2001/REC-MathML2-20010221/dtd/xhtml-math11-f.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>README</title>
+
+	<meta name="format" content="complete"/>
+  <style type="text/css">
+/* +++ master +++ */
+/* html elements */
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    overflow:hidden;
+    background-color: #f2f2f2;
+    color: #3c3c3c;
+    font-size: 62.5%;
+    -webkit-font-smoothing: antialiased;
+}
+a {
+    color: #308bd8;
+    text-decoration:none;
+}
+a:hover {
+    text-decoration: underline;
+}
+/* headings */
+h1, h2 {
+    line-height:1.2em;
+    margin-top:32px;
+    margin-bottom:12px;
+}
+h1:first-child {
+    margin-top:0;
+}
+h3, h4, h5, h6 {
+    margin-top:12px;
+    margin-bottom:6px;
+}
+h5, h6 {
+    font-size:0.9em;
+    line-height:1.0em;
+    margin-bottom:0;
+}
+/* end of headings */
+p {
+    margin:0 0 24px 0;
+}
+p:last-child {
+    margin-bottom:0;
+}
+hr {
+    width: 100%;
+    margin: 3em auto;
+    border: 0;
+    color: #eee;
+    background-color: #ccc;
+    height: 1px;
+    -webkit-box-shadow:0px 1px 0px rgba(255, 255, 255, 0.75);
+}
+/* lists */
+ol {
+    list-style: outside decimal;
+}
+ul {
+    list-style: outside disc;
+}
+ol, ul {
+    padding-left:0;
+    margin-bottom:24px;
+}
+ol li {
+    margin-bottom:16px;
+    margin-left:28px;
+}
+ul li {
+    margin-bottom:16px;
+    margin-left:16px;
+}
+li:last-child {
+    margin-bottom:0;
+}
+li > p {
+    margin-bottom:12px;
+}
+li > ol, li > ul {
+    margin-top: 16px !important;
+    padding-left:16px;
+}
+dl {
+    margin-bottom:24px;
+}
+dl dt {
+    font-weight:bold;
+    margin-bottom:8px;
+}
+dl dd {
+    margin-left:0;
+    margin-bottom:12px;
+}
+dl dd:last-child, dl:last-child {
+    margin-bottom:0;
+}
+/* end of lists */
+pre {
+    white-space: pre-wrap;
+    width: 96%;
+    margin-bottom: 24px;
+    overflow: hidden;
+    padding: 3px 10px;
+    -webkit-border-radius: 3px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+}
+code {
+    white-space: nowrap;
+    font-size: 1.1em;
+    padding: 2px;
+    -webkit-border-radius: 3px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+}
+pre code {
+    white-space: pre-wrap;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    -webkit-border-radius: 0;
+}
+blockquote {
+    margin-left: 0;
+    margin-right: auto;
+    width: 96%;
+    padding: 0 10px;
+    border-left: 3px solid #ddd;
+    color: #777;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-spacing: 0;
+}
+table th {
+    padding: 3px 10px;
+    background-color: #eee;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+table tr {
+}
+table td {
+    padding: 3px 10px;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+figure {
+    display: block;
+    text-align: center;
+}
+img {
+    display: block;
+    text-align: center;
+    border: none;
+    margin: 1em auto;
+    max-width: 100%;
+}
+figcaption {
+    font-size: 0.8em;
+    font-style: italic;
+}
+mark {
+    background: #fefec0;
+    padding:1px 3px;
+}
+
+/* unique elements */
+
+#wrapper {
+    position: fixed;
+    width: 99.9%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-size: 1.0em;
+}
+#content {
+    width: 610px;
+    margin: 0 auto 0 auto;
+    padding: 30px 0 30px 0;
+    font-family: 'Helvetica Neue', Palatino, Georgia, serif;
+    font-size: 1.5em;
+    line-height: 1.400000em;
+}
+
+#wrapper::-webkit-scrollbar {
+    width: 8px;
+    height: 10px;
+    -webkit-transition: all .45s ease-in;
+    position: relative;
+}
+#wrapper::-webkit-scrollbar-button:start:decrement, #wrapper::-webkit-scrollbar-button:end:increment {
+    height: 0px;
+    display: block;
+    background-color: transparent;
+}
+#wrapper::-webkit-scrollbar-track-piece {
+    background-color:
+    transparent;
+    -webkit-border-radius: 6px;
+}
+#wrapper::-webkit-scrollbar-thumb:vertical {
+    height: 50px;
+    background-color: #c8c8c8;
+    -webkit-border-radius: 6px;
+    -webkit-transition: all .45s ease-in;
+}
+
+/* classes */
+
+.markdowncitation {
+}
+.footnote {
+    font-size: 0.8em;
+    vertical-align: super;
+}
+.footnotes ol {
+    font-weight: bold;
+}
+.footnotes ol li p {
+    font-weight: normal;
+}
+
+/* custom formatting classes */
+
+.shadow {
+    -webkit-box-shadow: 0 2px 4px #999;
+}
+
+.source {
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    margin: -40px;
+}
+/* --- master --- */
+/* +++ export overrides +++ */
+#wrapper {
+    width: 99.9%;
+}
+#content {
+    width: 610px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Mobile support */
+@media only screen and (max-device-width:1024px) {
+    html {
+        overflow: auto;
+    }
+
+    #wrapper {
+        overflow: auto;
+        position: relative;
+    }
+}
+/* --- export overrides --- */
+/* Printing support (Print and export to PDF).
+ * Override all printing colors to match the Light theme.
+ */
+@media print {
+    img, pre, blockquote, table, figure {
+        page-break-inside: avoid;
+    }
+    body {
+        background-color:#fff;
+    }
+    #wrapper {
+        position: static;
+        overflow: hidden;
+        color: #3c3c3c;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .footnotes {
+        page-break-before: always;
+    }
+    #content {
+        margin: 0 auto;
+        padding: 0;
+        width: 98%;
+    }
+    #top-fader, #bottom-fader {
+        display: none;
+    }
+    a {
+        color: #3c3c3c;
+    }
+    hr {
+        color:#ddd;
+        background-color:#ddd;
+        -webkit-box-shadow:0px 1px 0px #ddd;
+    }
+    pre {
+        background-color:transparent;
+        border: 1px solid #ddd;
+    }
+    code {
+        background-color:transparent;
+        border: 1px solid #ddd;
+    }
+    blockquote {
+        border-left: 3px solid #ddd;
+        color: #3c3c3c;
+    }
+    table {
+        border-bottom: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+    }
+    table th {
+        background-color:transparent;
+        border-top: 1px solid #ddd;
+        border-left: 1px solid #ddd;
+    }
+    table td {
+        border-top: 1px solid #ddd;
+        border-left: 1px solid #ddd;
+    }
+    mark {
+        background:transparent;
+        color: #3c3c3c;
+    }
+    .source {
+        color: #3c3c3c;
+    }
+}
+  </style>
+</head>
+<body>
+  <div id="wrapper">
+    <div id="content">
+<h1>I&#8217;m <strong>Sam Oakley</strong>.</h1>
+
+<p>Creating software is my passion. I think mobile is the future, so that&#8217;s what I&#8217;m doing - developing for the major mobile platforms, creating apps and experiences for Android and iOS.</p>
+
+<p>Want to know more about my projects? Check out my <a href="https://github.com/blork">Github</a> and <a href="https://play.google.com/store/apps/developer?id=Sam+Oakley">Google Play</a> pages.</p>
+
+<p>Email me at <strong>sam@blork.co.uk</strong>, or tweet <strong>@Sam_Oakley</strong>.</p>
+
+<h1>Skills</h1>
+
+<h2>Mobile Development</h2>
+
+<p>I&#8217;ve developed a range of iOS and Android applications - apps for clients, along with my own creations. All my development is done in natively in Java and Objective-C.</p>
+
+<h2>Web Design &amp; Development</h2>
+
+<p>Working on the web I designed over 30 websites for as many clients, and was responsible for maintenance of over 100. I have extensive experience in the major languages of the web - PHP, Python, Ruby, Java.</p>
+
+<h2>Eagerness to Learn</h2>
+
+<p>I&#8217;m always ready and eager to stretch my abilities and develop new skills to take advantage of the latest technologies.</p>
+
+<h1>Experience</h1>
+
+<h2>3Squared (3squared.com)</h2>
+
+<h3>Mobile Developer</h3>
+
+<h4>2011 - current</h4>
+
+<p>I began as a contractor working with an existing iPhone &amp; Web development team to produce high-quality Android applications for 3Squared&#8217;s clients. I loved working with the team so much that I came aboard full time after graduating, working across Android and iOS - the only developer with both skill sets - producing great phone and tablet apps.</p>
+
+<h2>368 Ltd.</h2>
+
+<h3>Android Application Developer</h3>
+
+<h4>2011</h4>
+
+<p>I worked as part of a 5-man team on an Android tablet app for the newspaper and magazine market. The app included in-app billing, content synchronisation with remote servers, custom views and lots of user-interface polish.</p>
+
+<h2>G Media</h2>
+
+<h3>Android Application Developer</h3>
+
+<h4>2011</h4>
+
+<p>Developed a white-label Android internet radio app based an existing iPhone application, but totally native to Android and taking full advantage of the platform. With a tight deadline, the app was delivered on time in under 2 months. The released apps are available on the Android Market, <a href="https://market.android.com/developer?pub=G+Media">published by GMedia</a> as well as <a href="https://market.android.com/details?id=com.gmedia.planetrock&amp;feature=search_result">their clients</a>. More information is available from <a href="http://gmedia.co.uk/products/mobile-apps/">G Media&#8217;s website.</a></p>
+
+<h2>Websell Masters</h2>
+
+<h3>Web Developer</h3>
+
+<h4>2008&#8211;2011</h4>
+
+<p>Worked to produce high quality websites, mainly focusing on the tourism industry. My role was full design and development of the sites. This included a custom e-commerce site developed using object-oriented PHP and MySQL. Other major projects I was involved with include assisting with the development of a recruitment site, and a large tourism focused directory. In this role I also took on the responsibility of training new employees in best practices and the use of our systems.</p>
+
+<h1>Personal Projects</h1>
+
+<h2><a href="http://pinnerapp.net">Pinner</a> (iPhone &amp; iPad)</h2>
+
+<h3>2013</h3>
+
+<p>Pinner is a fast, no-nonsense iPhone and iPad app for <a href="http://pinboard.in">Pinboard</a>. Pinner syncs your pinboard.in bookmarks to your iPhone or iPad. It’s a universal app available on iPhone and iPad. Optimised for Retina displays, iPad mini, and iPhone 5.</p>
+
+<h2>SafeTrip (Cross-platform Mobile Application)</h2>
+
+<h3>Team Member</h3>
+
+<h3>2011 - 2012</h3>
+
+<p>In 2011 I attended a local hackathon (<a href="http://www.svc2uk.com">SV2UK</a>) in which we used open Government data to back mobile applications. In a team of 4 we produced a working prototype based on an original idea of my own which I had previously investigated as part of my dissertation - giving directions to the user which avoid high-risk areas by using the street-level data on crimes. In the 2-day hackathon, we produced a web app usable on all modern smartphones, using HTML5 and JavaScript. The app was chosen as a regional winner, and our team went on to come in the top 8 nationally, which led to the team <a href="http://collabojam.net/2011/11/svc2uk-sheffield-successes/">visiting No. 10 Downing Street to</a> receive our awards.</p>
+
+<h2><a href="https://play.google.com/store/apps/details?id=com.blork.anpod">Astronomy Picture of the Day</a> (Android)</h2>
+
+<h3>Sole Developer</h3>
+
+<h3>2010 - 2011</h3>
+
+<p>Using the Astronomy Picture of the Day as provided by NASA, the app allows users to set it as their &#8216;homescreen&#8217; wallpaper, as well as browse through the collection. On the server side, I used Google App Engine to process the large images provided by NASA and to output JSON representations of the information associated with each. The app is currently available in the Play Store. As of writing, it has received over 150,000 downloads. </p>
+
+<p>Subsequent updates to this app to made use of the new features of Android 4.0, including a new interface designed specially for tablets.</p>
+
+<h1>Education &amp; University Projects</h1>
+
+<h2>University of Sheffield</h2>
+
+<h3>Software Engineering (M.Eng)</h3>
+
+<h4>2007&#8211;2012</h4>
+
+<p>Graduated July 2012 with a First-class Masters Degree in Engineering (with Honours).</p>
+
+<h2>ELTC Room Booking System</h2>
+
+<h3>Genesys Solutions</h3>
+
+<h3>2011 - 2012</h3>
+
+<p>Genesys Solutions is a student-run software development group and a division of epiGenesys, a wholly owned subsidiary of The University of Sheffield specialising in the implementation of web applications, and whose services are particularly suitable for the development of small information systems and software prototypes. Working in a medium-sized group, we were tasked with producing a software system for a real client. Gained exposure to Ruby &amp; Rails along with more experience with Software Development techniques such as Test and Behavior Driven Development.</p>
+
+<h2><a href="http://aclweb.org/anthology-new/S/S12/S12-1097.pdf">Two Approaches to Semantic Textual Similarity</a></h2>
+
+<h3>Darwin Research Project</h3>
+
+<h3>2011 - Current</h3>
+
+<p>My final year research project aimed to produce a system which could quantifiably inform us how similar two short sentences are, resulting in a similarity score. This was done by using existing approaches (such as N-gram overlap) extended using one of several novel techniques developed by my team and I. The philosophy of the Darwin project is to give students at fourth year and Masters level some insight into the research process by applying scientific research methodology to a small group research project.</p>
+
+<h2>Mining &amp; Integrating a Large Amount of Information from the Web</h2>
+
+<h3>Undergraduate Dissertation</h3>
+
+<h3>2010 - 2011</h3>
+
+<p>The dissertation completed as part of my degree course involved creating several &#8216;mashups&#8217; using data about the local area. The mashups were both innovative and useful. The data is gathered from the semantic web of data, as well as from my own mining and scraping of web content. Combining the data and using language processing techniques allowed new observations to be made. The idea of the semantic web is a focus of the project, and all data will be made available in structured formats.</p>
+
+<h2>Sheffield Raising &amp; Giving Society (Website)</h2>
+
+<h3>Developer</h3>
+
+<h3>2010</h3>
+
+<p>As part of my degree course, I, along with the 4 other members of the team, designed and created a new website for the RAG society. This involved several client meetings in order to establish the requirements (which included an online event registration system), followed by the development of a system to meet them. Technologies used involved PHP combined with the CodeIgniter framework, as well as XHTML+CSS and Javascript on the front end. In competition with 3 other groups, our system was chosen as the winner and is now live as the new site.</p>
+
+<h2>Sheffield Raising &amp; Giving Society (Android Application)</h2>
+
+<h3>Sole Developer</h3>
+
+<h4>2010</h4>
+
+<p>As part of the aforementioned project, I created an Android app to interface with the website, downloading the details of events and presenting them in a format better suited to a mobile device. This was not an assessed part of the course; rather, I wished to learn how to develop for the platform. The app is currently available in the Android Market.</p>
+    </div>
+  </div> <!-- End wrapper -->
+</body>
+</html>
