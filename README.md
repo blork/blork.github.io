@@ -83,3 +83,17 @@ As part of my degree course, I, along with the 4 other members of the team, desi
 ### Sole Developer
 #### 2010
 As part of the aforementioned project, I created an Android app to interface with the website, downloading the details of events and presenting them in a format better suited to a mobile device. This was not an assessed part of the course; rather, I wished to learn how to develop for the platform. The app is currently available in the Android Market.
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20841876-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
