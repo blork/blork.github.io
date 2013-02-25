@@ -1,25 +1,42 @@
+<title>Sam Oakley | iPhone, iPad and Android Developer | Based in Sheffield, UK</title>
+<meta name="keywords" content="Mobile Developer Sheffield, App Developer Sheffield, Sheffield android developer, Android, iPad, iPhone, Play Store, University of Sheffield, iphone android developer" />
+<meta name="description" content="I'm Sam Oakley. Creating software is my passion. I think mobile is the future, so that's what I'm doing - developing for the major mobile platforms, creating apps and experiences for Android and iOS." />
 #I'm **Sam Oakley**, and I make apps.
-Creating software is my passion. I think mobile is the future, so that's what I'm doing - developing for the major mobile platforms, creating apps and experiences for Android and iOS.
+Creating software is my passion. I think mobile is the future, so that's what I'm doing - developing for the major mobile platforms, creating apps and experiences for Android and iOS, platforms for which I've developed a range of software in both a freelance capacity, and now as a full-time mobile developer at [3Squared](http://3squared.com).
 
-Want to know more about my projects? Check out my [Github](https://github.com/blork) and [Google Play](https://play.google.com/store/apps/developer?id=Sam+Oakley) pages.
+All my development is done especially for the platform I'm targeting - that means Objective-C for iOS, and Java for Android. In previous positions I had a more web-focused role, meaning I have had lots of exposure to HTML, CSS and Javascript. I've developed dynamic sites using PHP, Python, Ruby and Java - but while I have extensive experience developing for the web, I've decided to focus on mobile applications going forward.
 
-Email me at **sam@blork.co.uk**, or tweet **@Sam_Oakley**.
-<hr />
-# Skills
-## Mobile Development
-I've developed a range of iOS and Android applications - apps for clients, along with my own creations. All my development is done in natively in Java and Objective-C.
-
-## Web Design & Development
-Working on the web I designed over 30 websites for as many clients, and was responsible for maintenance of over 100. I have extensive experience in the major languages of the web - PHP, Python, Ruby, Java.
-
-## Eagerness to Learn
 I'm always ready and eager to stretch my abilities and develop new skills to take advantage of the latest technologies.
+</hr>
+
+If you'd like to know more about my projects, you can check out my [Github account](https://github.com/blork), my [Google Play developer page](https://play.google.com/store/apps/developer?id=Sam+Oakley) and  my [App Store submissions](http://appstore.com/samoakley).
+
+Email me at **sam@blork.co.uk**, or tweet [**@Sam_Oakley**](http://twitter.com/Sam_Oakley).
+<hr />
+# Projects
+## [Pinner](http://pinnerapp.net) (iPhone & iPad)
+### 2013
+Pinner is a fast, no-nonsense iPhone and iPad app for [Pinboard](http://pinboard.in). Pinner syncs your pinboard.in bookmarks to your iPhone or iPad. It’s a universal app available on iPhone and iPad. Optimised for Retina displays, iPad mini, and iPhone 5.
+
+## SafeTrip (Cross-platform Mobile Application)
+### Team Member
+### 2011 - 2012
+In 2011 I attended a local hackathon ([SV2UK](http://www.svc2uk.com)) in which we used open Government data to back mobile applications. In a team of 4 we produced a working prototype based on an original idea of my own which I had previously investigated as part of my dissertation - giving directions to the user which avoid high-risk areas by using the street-level data on crimes. In the 2-day hackathon, we produced a web app usable on all modern smartphones, using HTML5 and JavaScript. 
+
+The app was chosen as a regional winner, and our team went on to come in the top 8 nationally, which led to the team [visiting No. 10 Downing Street to](http://collabojam.net/2011/11/svc2uk-sheffield-successes/) receive our awards.
+
+## [Astronomy Picture of the Day](https://play.google.com/store/apps/details?id=com.blork.anpod) (Android)
+### Sole Developer
+### 2010 - 2012
+Using the Astronomy Picture of the Day as provided by NASA, the app allows users to set it as their 'homescreen' wallpaper, as well as browse through the collection. On the server side, I used Google App Engine to process the large images provided by NASA and to output JSON representations of the information associated with each. The app is currently available in the Play Store.
+
+Subsequent updates to this app to made use of the new features of Android 4.0, including a new interface designed specially for tablets.
 <hr />
 # Experience
 ## 3Squared
 ### Mobile Developer
 #### 2011 - current
-I began as a contractor working with an existing iPhone & Web development team to produce high-quality Android applications for [3Squared](3squared.com)'s clients. 
+I began as a contractor working with an existing iPhone & Web development team to produce high-quality Android applications for [3Squared](http://3squared.com)'s clients. 
 
 I loved working with the team so much that I came aboard full time after graduating, working across Android and iOS - the only developer with both skill sets - producing great phone and tablet apps.
 
@@ -41,25 +58,6 @@ The released apps are available on the Android Market, [published by GMedia](htt
 Worked to produce high quality websites, mainly focusing on the tourism industry. My role was full design and development of the sites. This included a custom e-commerce site developed using object-oriented PHP and MySQL. Other major projects I was involved with include assisting with the development of a recruitment site, and a large tourism focused directory.
 
 In this role I also took on the responsibility of training new employees in best practices and the use of our systems.
-<hr />
-# Personal Projects
-## [Pinner](http://pinnerapp.net) (iPhone & iPad)
-### 2013
-Pinner is a fast, no-nonsense iPhone and iPad app for [Pinboard](http://pinboard.in). Pinner syncs your pinboard.in bookmarks to your iPhone or iPad. It’s a universal app available on iPhone and iPad. Optimised for Retina displays, iPad mini, and iPhone 5.
-
-## SafeTrip (Cross-platform Mobile Application)
-### Team Member
-### 2011 - 2012
-In 2011 I attended a local hackathon ([SV2UK](http://www.svc2uk.com)) in which we used open Government data to back mobile applications. In a team of 4 we produced a working prototype based on an original idea of my own which I had previously investigated as part of my dissertation - giving directions to the user which avoid high-risk areas by using the street-level data on crimes. In the 2-day hackathon, we produced a web app usable on all modern smartphones, using HTML5 and JavaScript. 
-
-The app was chosen as a regional winner, and our team went on to come in the top 8 nationally, which led to the team [visiting No. 10 Downing Street to](http://collabojam.net/2011/11/svc2uk-sheffield-successes/) receive our awards.
-
-## [Astronomy Picture of the Day](https://play.google.com/store/apps/details?id=com.blork.anpod) (Android)
-### Sole Developer
-### 2010 - 2011
-Using the Astronomy Picture of the Day as provided by NASA, the app allows users to set it as their 'homescreen' wallpaper, as well as browse through the collection. On the server side, I used Google App Engine to process the large images provided by NASA and to output JSON representations of the information associated with each. The app is currently available in the Play Store. As of writing, it has received over 150,000 downloads. 
-
-Subsequent updates to this app to made use of the new features of Android 4.0, including a new interface designed specially for tablets.
 <hr />
 # Education & University Projects
 ## University of Sheffield
