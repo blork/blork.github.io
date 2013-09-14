@@ -1,6 +1,3 @@
-<title>Sam Oakley | iPhone, iPad and Android Developer | Based in Sheffield, UK</title>
-<meta name="keywords" content="Mobile Developer Sheffield, App Developer Sheffield, Sheffield android developer, Android, iPad, iPhone, Play Store, University of Sheffield, iphone android developer" />
-<meta name="description" content="I'm Sam Oakley. Creating software is my passion. I think mobile is the future, so that's what I'm doing - developing for the major mobile platforms, creating apps and experiences for Android and iOS." />
 #I'm **Sam Oakley**, and I make apps.
 Creating software is my passion. I think mobile is the future, so that's what I'm doing - developing for the major mobile platforms, creating apps and experiences for Android and iOS, platforms for which I've developed a range of software in both a freelance capacity, and now as a full-time mobile developer at [3Squared](http://3squared.com).
 
