@@ -4,6 +4,9 @@ body {
 	background-color: #FEFEFE;
 }
 
+a, img {
+    border:none;
+}
 
 h1,h2,h3{
     font-family: georgia, serif; 
