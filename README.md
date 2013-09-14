@@ -1,22 +1,25 @@
-#I'm **Sam Oakley**, and I make apps.
-Creating software is my passion. I think mobile is the future, so that's what I'm doing - developing for the major mobile platforms, creating apps and experiences for Android and iOS, platforms for which I've developed a range of software in both a freelance capacity, and now as a full-time mobile developer at [3Squared](http://3squared.com).
+#Sam Oakley
+###Email: **sam@blork.co.uk**
+###Twitter: [**@Sam_Oakley**](http://twitter.com/Sam_Oakley)
+<hr />
+Creating software is my passion. I think mobile is the future, so I'm developing for the major mobile platforms: Android and iOS. I've worked on many mobile projects and have published several of my own apps.
 
-All my development is done especially for the platform I'm targeting - that means Objective-C for iOS, and Java for Android. In previous positions I had a more web-focused role, meaning I have had lots of exposure to HTML, CSS and Javascript. I've developed dynamic sites using PHP, Python, Ruby and Java - but while I have extensive experience developing for the web, I've decided to focus on mobile applications going forward.
+I’m experienced in both Objective-C and Java. I also have experience developing for the web, using front-end languages like HTML/HAML, CSS/SASS and Javascript. I’ve developed dynamic sites using PHP, Python, Ruby and Java.
 
 I'm always ready and eager to stretch my abilities and develop new skills to take advantage of the latest technologies.
-</hr>
+<hr />
 
 If you'd like to know more about my projects, you can check out my [Github account](https://github.com/blork), my [Google Play developer page](https://play.google.com/store/apps/developer?id=Sam+Oakley) and  my [App Store submissions](http://appstore.com/samoakley).
 
-Email me at **sam@blork.co.uk**, or tweet [**@Sam_Oakley**](http://twitter.com/Sam_Oakley).
 <hr />
 # Projects
 ## [Pinner](http://pinnerapp.net) (iPhone & iPad)
+### Team Member
 ### 2013
 Pinner is a fast, no-nonsense iPhone and iPad app for [Pinboard](http://pinboard.in). Pinner syncs your pinboard.in bookmarks to your iPhone or iPad. It’s a universal app available on iPhone and iPad. Optimised for Retina displays, iPad mini, and iPhone 5.
 
 ## SafeTrip (Cross-platform Mobile Application)
-### Team Member
+### Sole Developer
 ### 2011 - 2012
 In 2011 I attended a local hackathon ([SV2UK](http://www.svc2uk.com)) in which we used open Government data to back mobile applications. In a team of 4 we produced a working prototype based on an original idea of my own which I had previously investigated as part of my dissertation - giving directions to the user which avoid high-risk areas by using the street-level data on crimes. In the 2-day hackathon, we produced a web app usable on all modern smartphones, using HTML5 and JavaScript. 
 
@@ -32,26 +35,21 @@ Subsequent updates to this app to made use of the new features of Android 4.0, i
 # Experience
 ## 3Squared
 ### Mobile Developer
-#### 2011 - current
+### 2011 - current
 I began as a contractor working with an existing iPhone & Web development team to produce high-quality Android applications for [3Squared](http://3squared.com)'s clients. 
 
 I loved working with the team so much that I came aboard full time after graduating, working across Android and iOS - the only developer with both skill sets - producing great phone and tablet apps.
 
-## 368 Ltd.
-### Android Application Developer
-#### 2011
-I worked as part of a 5-man team on an Android tablet app for the newspaper and magazine market. The app included in-app billing, content synchronisation with remote servers, custom views and lots of user-interface polish.
-
 ## G Media
 ### Android Application Developer
-#### 2011
+### 2011
 Developed a white-label Android internet radio app based an existing iPhone application, but totally native to Android and taking full advantage of the platform. With a tight deadline, the app was delivered on time in under 2 months. 
 
 The released apps are available on the Android Market, [published by GMedia](https://market.android.com/developer?pub=G+Media) as well as [their clients](https://market.android.com/details?id=com.gmedia.planetrock&feature=search_result). More information is available from [G Media's website.](http://gmedia.co.uk/products/mobile-apps/)
 
 ## Websell Masters
 ### Web Developer
-#### 2008-2011
+### 2008-2011
 Worked to produce high quality websites, mainly focusing on the tourism industry. My role was full design and development of the sites. This included a custom e-commerce site developed using object-oriented PHP and MySQL. Other major projects I was involved with include assisting with the development of a recruitment site, and a large tourism focused directory.
 
 In this role I also took on the responsibility of training new employees in best practices and the use of our systems.
@@ -59,7 +57,7 @@ In this role I also took on the responsibility of training new employees in best
 # Education & University Projects
 ## University of Sheffield
 ### Software Engineering (M.Eng)
-#### 2007-2012
+### 2007-2012
 Graduated July 2012 with a First-class Masters Degree in Engineering (with Honours).
 
 ## ELTC Room Booking System
